@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:visible="false"
+        android:id="@+id/MENU_Question"
+        android:orderInCategory="101">
+    </group>
+
+    <group
+        android:id="@+id/MENU_Settings"
+        android:orderInCategory="102">
+
+        <item
+            android:id="@+id/MENU_toggleExpandPassage"
+            android:icon="@drawable/ic_baseline_zoom_out_map_24"
+            android:title="Expand Passage"/>
+        <item
+            android:id="@+id/nav_pause"
+            android:icon="@drawable/ic_baseline_pause_24"
+            android:title="Pause" />
+        <item
+            android:id="@+id/nav_finish"
+            android:icon="@drawable/ic_baseline_check_24"
+            android:title="Finish" />
+
+    </group>
+
+</menu>
